@@ -5,6 +5,7 @@ import india from "../assets/india.svg";
 import uk from "../assets/uk.svg";
 import sweden from "../assets/sweden.svg";
 import egypt from "../assets/egypt.svg";
+import Topsection from "./topsection";
 
 
 function Countrywise() {
@@ -43,7 +44,7 @@ function Countrywise() {
   return (
     <div>
       <h1 className="text-sm mb-4">Card by Country</h1>
-
+      <Topsection /><br/>
       <div className="overflow-x-auto">
         {/* Tabs */}
         <div className="flex">

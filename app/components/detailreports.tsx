@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Topsection from "./topsection";
 
 function DetailReports() {
   const CardRequest = [
@@ -96,7 +97,7 @@ function DetailReports() {
   return (
     <div>
       <h1 className="text-sm mb-4">Detail Report</h1>
-
+      <Topsection /><br/>
       <div className="overflow-x-auto">
         {/* Tabs */}
         <div className="flex">

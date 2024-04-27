@@ -16,7 +16,7 @@ function Login() {
     type="text"
     className="border border-transparent rounded-md py-2 px-4 w-full focus:outline-none focus:border-grey-500 bg-[#282929] text-[#989898] text-xs"
     placeholder="Enter your email"
-    style={{ paddingTop: "2rem" }} // Adjust the top padding to create space
+    style={{ paddingTop: "2rem" }} 
   />
   <label
     htmlFor="input"
@@ -30,7 +30,7 @@ function Login() {
     type="text"
     className="border border-transparent rounded-md py-2 px-4 w-full focus:outline-none focus:border-grey-500 bg-[#282929] text-[#989898] text-xs"
     placeholder="******"
-    style={{ paddingTop: "2rem" }} // Adjust the top padding to create space
+    style={{ paddingTop: "2rem" }} 
   />
   <label
     htmlFor="input"
